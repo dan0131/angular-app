@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.card-main-blue{
+    background-color: #0E26B1 !important;
+    color: #fff !important;
+}
+
+.card-main-red{
+    background-color: #B2022F !important;
+    color: #fff !important;
+}
+
+.card-main-green{
+    background-color: #00A56A !important;
+    color: #fff !important;
+}
+
+.main{
+    background-image: url(../img/backg.jpg);
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
