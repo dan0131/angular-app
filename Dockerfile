@@ -15,7 +15,7 @@ RUN ./node_modules/@angular/cli/bin/ng build --prod --aot
 FROM nginx:latest
 
 # Install and build the application
-COPY --from=ng-builder  /usr/src/app/dist/business-webapp-admin /usr/src/app
+COPY --from=ng-builder  /usr/src/app/dist/angular-app /usr/src/app
 
 WORKDIR /usr/src/app
 
