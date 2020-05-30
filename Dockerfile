@@ -19,7 +19,6 @@ COPY --from=ng-builder  /usr/src/app/dist/covid-stats /usr/src/app
 
 WORKDIR /usr/src/app
 
-COPY ./default.conf /etc/nginx/conf.d/
 
 CMD ["nginx", "-g", "daemon off;"]
 
